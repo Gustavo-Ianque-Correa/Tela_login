@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+transition: 1s;
+margin: 0;
+padding: 0;
+}
+body {
+
+    --azulC--: rgb(224, 224, 224);
+    --cianoC--: rgb(255, 255, 255);
+    --preto1C--: rgba(0, 0, 0, 0.3);
+    --preto2C--: rgb(0, 0, 0);
+    --prew1C--: rgb(0, 81, 255);
+    --prew2C--: rgb(70, 23, 240);
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100ex;
+    background-color: var(--azulC--);
+    overflow: hidden;
+
+}
+
+
+
+
+
+.Area_login {
+    display: grid;
+    background-color: var(--cianoC--);
+    padding: 70px;
+    border-radius: 2em;
+    border: thin solid var(--preto1C--);
+    box-shadow: 1px 1px 1px 1px inset rgba(22, 22, 22, 0.1);
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+
+.login {
+    padding-top: 10px;
+    justify-self: center;
+
+}
+
+label {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button {
+    background-color: var(--prew1C--);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    color: aliceblue;
+    transition: 0.7s;
+    
+}
+
+button:hover {
+    background-color: var(--prew2C--);
+}
+
+input:hover {
+    border: 2px solid var(--preto1C--);
+}
+input {
+    border: 2px solid var(--preto2C--);
+    padding: 6px;
+    border-radius: 6px;
+    transition: 0.1s;
+}
+
+.Titulo{
+padding-bottom: 30px;
+justify-self: center;
+font-size: 40px;
+padding: 10px;
+background-color: var();
+border-radius: 10px;
+
+}
+
+img{
+    justify-self: center;
+}
